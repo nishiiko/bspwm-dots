@@ -8,4 +8,5 @@ dunst\
 alacritty\
 picom\
 polybar\
-rofi
+rofi\
+nitrogen
