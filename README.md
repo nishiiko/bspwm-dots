@@ -1,5 +1,6 @@
 # bspwm-dots
 meow
+![](/screenshot.png)
 
 # things you probably need
 bswpm (duh)\
