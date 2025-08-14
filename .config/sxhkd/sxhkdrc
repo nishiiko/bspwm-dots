@@ -9,7 +9,7 @@ super + Print
     scrot -u $(xdotool getactivewindow) $HOME/Pictures/Screenshots/$(date +'Screenshot_%Y-%m-%d_%H-%M-%S.png') -e 'xclip -selection clipboard -t image/png -f $f'
 
 super + shift + s
-    scrot -s -f $HOME/Pictures/Screenshots/$(date +'Screenshot_%Y-%m-%d_%H-%M-%S.png') -e 'xclip -selection clipboard -t image/png -f $f'
+    scrot -s -f -i $HOME/Pictures/Screenshots/$(date +'Screenshot_%Y-%m-%d_%H-%M-%S.png') -e 'xclip -selection clipboard -t image/png -f $f'
 
 XF86MonBrightnessDown
     brightnessctl set 5%- -e -s
