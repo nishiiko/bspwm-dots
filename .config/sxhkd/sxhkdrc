@@ -6,7 +6,7 @@ Print
     scrot $HOME/Pictures/Screenshots/$(date +'Screenshot_%Y-%m-%d_%H-%M-%S.png') -e 'xclip -selection clipboard -t image/png -f $f'
 
 super + Print
-    scrot -u $(xdotool getactivewindow) $HOME/Pictures/Screenshots/$(date +'Screenshot_%Y-%m-%d_%H-%M-%S.png') -e 'xclip -selection clipboard -t image/png -f $f'
+    scrot -u $HOME/Pictures/Screenshots/$(date +'Screenshot_%Y-%m-%d_%H-%M-%S.png') -e 'xclip -selection clipboard -t image/png -f $f'
 
 super + shift + s
     scrot -s -f -i $HOME/Pictures/Screenshots/$(date +'Screenshot_%Y-%m-%d_%H-%M-%S.png') -e 'xclip -selection clipboard -t image/png -f $f'
