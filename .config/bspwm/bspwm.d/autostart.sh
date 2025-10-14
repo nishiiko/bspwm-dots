@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+
 picom &
 unclutter --timeout 3 --start-hidden -b &
 xsetroot -cursor_name left_ptr &
@@ -8,4 +12,5 @@ setxkbmap -layout "gb(colemak_dh),gb" -option "grp:win_space_toggle" &
 polybar & 
 nitrogen --set-zoom-fill $HOME/Pictures/Wallpapers/otherworld_dark.png &
 dunst --startup_notification &
+
 # $HOME/.config/bspwm/bspwm.d/pipewire.sh &

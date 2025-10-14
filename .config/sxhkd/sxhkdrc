@@ -26,6 +26,9 @@ XF86AudioLowerVolume
 XF86AudioMute
     wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 
+ctrl + shift + alt + l
+    fcitx5-remote -t
+
 # terminal emulator
 super + t 
     alacritty msg create-window || alacritty	
